@@ -1,0 +1,8 @@
+{
+  "name": "Nueva app 1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "740c560c"
+}
