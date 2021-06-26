@@ -1,17 +1,59 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+  <ion-toolbar  color="tertiary">
+    <ion-title text-center color="light">
+      Datos Personales
+    </ion-title>   
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <ion-title size="large">DP</ion-title>     
+    </ion-toolbar>   
+  </ion-header>  
+  <ion-grid>
+    <img src="assets/img/ana.png">
+    <ion-row>      
+      <ion-col>      
+        <ion-text color="primary">
+          <h1>Nombre:</h1>
+        </ion-text>
+        <ion-text color="primary">
+          <h1>Cedula:</h1>
+        </ion-text>
+        <ion-text color="primary">
+          <h1>Nacionalidad:</h1>
+        </ion-text>
+        <ion-text color="primary">
+          <h1>Fecha de Nacimiento:</h1>
+        </ion-text>
+        <ion-text color="primary">
+          <h1>Correo Electronico:</h1>
+        </ion-text>
+        <ion-text color="primary">
+          <h1>Direccion:</h1>
+        </ion-text>
+        <ion-text color="primary">
+          <h1>Telefono:</h1>
+        </ion-text>
+        <ion-text color="primary">
+          <h1>Convencional:</h1>
+        </ion-text>       
+      </ion-col> 
+      
+      <ion-col width-10>
+        <h1>
+         Ana Maria Quishpe Mero
+        </h1>
+        <h1>0923386015</h1>
+        <h1>Ecuatoriana</h1>
+        <h1>10-02-1997</h1>
+        <h1>ana.quishpem@ug.edu.ec</h1>
+        <h1> Calle 27 entre la C y Ch </h1>
+        <h1>0980218075</h1>
+        <h1>275-8922</h1>
+      </ion-col>
+    </ion-row>    
+  </ion-grid>
+ 
 </ion-content>
